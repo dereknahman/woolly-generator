@@ -27,14 +27,14 @@ function App() {
           options={{ title: "Generate" }}
         />
         <Tab.Screen
+          name="Favourite"
+          component={FavouriteScreen}
+          options={{ title: "Favourites" }}
+        />
+        <Tab.Screen
           name="Submit"
           component={SubmitScreen}
           options={{ title: "Submit" }}
-        />
-        <Tab.Screen
-          name="Favourite"
-          component={FavouriteScreen}
-          options={{ title: "Favourite" }}
         />
       </Tab.Navigator>
     </NavigationContainer>
