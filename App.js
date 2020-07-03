@@ -6,6 +6,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 const Stack = createStackNavigator();
 
 function App(props) {
+  console.log(props);
   return (
     <NavigationContainer>
       <Stack.Navigator>
