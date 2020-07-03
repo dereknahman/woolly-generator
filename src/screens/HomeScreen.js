@@ -3,13 +3,13 @@ import { View, StyleSheet } from "react-native";
 import ImageCard from "../../components/ImageCard";
 import GeneratorButton from "../../components/GeneratorButton";
 
-const HomeScreen = (props) => {
+const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.card}>
         <ImageCard />
       </View>
-      <View style={styles.button}>
+      <View>
         <GeneratorButton />
       </View>
     </View>
@@ -22,9 +22,6 @@ const styles = StyleSheet.create({
   },
   card: {
     marginVertical: "20%",
-  },
-  button: {
-    marginTop: "5%",
   },
 });
 

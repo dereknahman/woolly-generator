@@ -1,5 +1,4 @@
 import * as React from "react";
-import { StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeScreen from "./src/screens/HomeScreen";
@@ -16,8 +15,11 @@ function App() {
         tabBarOptions={{
           activeTintColor: Colors.accentColor,
           inactiveTintColor: Colors.mainColor,
+          labelStyle: {
+            fontSize: 15,
+            fontWeight: "600",
+          },
         }}
-        style={styles.tabText}
       >
         <Tab.Screen
           name="Home"
@@ -38,11 +40,5 @@ function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  tabText: {
-    fontSize: 10,
-  },
-});
 
 export default App;
