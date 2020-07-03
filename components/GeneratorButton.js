@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     backgroundColor: Colors.accentColor,
     padding: 20,
+    borderRadius: 10,
   },
   textColor: {
     color: "white",

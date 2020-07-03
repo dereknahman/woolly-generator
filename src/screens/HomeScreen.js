@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   card: {
-    marginTop: "20%",
+    marginVertical: "20%",
   },
   button: {
-    marginTop: "15%",
+    marginTop: "5%",
   },
 });
 
