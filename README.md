@@ -10,4 +10,4 @@ To get it running:
 - clone this repo.
 - run ```expo start``` in the project directory.
 - choose whether you want it on an Android Emulator, iOS Simulator, or your own device (the terminal will prompt you).
-- 
+- enjoy Woolly.
